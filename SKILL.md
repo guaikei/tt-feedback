@@ -6,6 +6,11 @@ name: tt-feedback
 description: "TikTok用户反馈洞察数据源（只读）：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "TikTok用户反馈洞察｜高赞评论·需求提取·评论FAQ·改进线索"
+display_name_en: "TikTok Feedback"
+description_zh: "TikTok用户反馈洞察数据源（只读）：作品详情、视频评论、博主作品、关键词搜视频，输出结构化JSON供AI做评论区需求挖掘与反馈聚类"
+description_en: "Read-only TikTok feedback-insight data source: keyword video search (relevance/most-liked sorting, 0-180-day windows), creator post lists by profile URL or sec_uid, and video comments, all returned as structured JSON for AI comment mining and feedback clustering. Extracts real needs, pain points and recurring questions from high-like comments, then organizes comment FAQs and improvement clues. No TikTok login, no publishing, liking or commenting, no ban risk. Scale: pay-per-use up to 10,000 items per call; monthly plans cap search and creator posts at 30 and comments at 40, returning PLAN_LIMIT (exit code 1) when exceeded. Needs Node.js 16.14+ and GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
